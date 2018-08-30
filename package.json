@@ -1,0 +1,24 @@
+{
+  "name": "react-native-baidu-tts",
+  "version": "1.0.0",
+  "description": "Baidu TTS for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbsion/react-native-baidu-tts.git"
+  },
+  "keywords": [
+    "baidu",
+    "tts",
+    "react-native"
+  ],
+  "author": "hbsion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbsion/react-native-baidu-tts/issues"
+  },
+  "homepage": "https://github.com/hbsion/react-native-baidu-tts#readme"
+}

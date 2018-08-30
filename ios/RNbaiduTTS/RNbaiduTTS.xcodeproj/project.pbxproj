@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9196923E2138481800167F3D /* RNbaiduTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9196923D2138481800167F3D /* RNbaiduTTS.m */; };
+		9196923F2138481800167F3D /* RNbaiduTTS.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 9196923C2138481800167F3D /* RNbaiduTTS.h */; };
+		91969266213848E000167F3D /* libBaiduSpeechSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196925A213848E000167F3D /* libBaiduSpeechSDK.a */; };
+		9196926F2138493900167F3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196926E2138493900167F3D /* UIKit.framework */; };
+		919692712138494500167F3D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919692702138494500167F3D /* AudioToolbox.framework */; };
+		919692BB21384DC300167F3D /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 919692BA21384DC300167F3D /* libstdc++.6.0.9.dylib */; };
+		919692BD21384E2D00167F3D /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 919692BC21384E2D00167F3D /* libc++.1.dylib */; };
+		919692BF21384E3B00167F3D /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 919692BE21384E3B00167F3D /* libz.1.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		919692372138481800167F3D /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9196923F2138481800167F3D /* RNbaiduTTS.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		919692392138481800167F3D /* libRNbaiduTTS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNbaiduTTS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9196923C2138481800167F3D /* RNbaiduTTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNbaiduTTS.h; sourceTree = "<group>"; };
+		9196923D2138481800167F3D /* RNbaiduTTS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNbaiduTTS.m; sourceTree = "<group>"; };
+		91969257213848E000167F3D /* Chinese_And_English_Text.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chinese_And_English_Text.dat; sourceTree = "<group>"; };
+		91969258213848E000167F3D /* Chinese_And_English_Speech_Female.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chinese_And_English_Speech_Female.dat; sourceTree = "<group>"; };
+		9196925A213848E000167F3D /* libBaiduSpeechSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduSpeechSDK.a; sourceTree = "<group>"; };
+		9196925C213848E000167F3D /* BDSSynthesizerStatusNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerStatusNotifications.h; sourceTree = "<group>"; };
+		9196925D213848E000167F3D /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
+		9196925E213848E000167F3D /* BDS_EttsModelManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDS_EttsModelManagerInterface.h; sourceTree = "<group>"; };
+		9196925F213848E000167F3D /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSBuiltInPlayer.h; sourceTree = "<group>"; };
+		91969260213848E000167F3D /* BDSMixedModeSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSMixedModeSynthesizer.h; sourceTree = "<group>"; };
+		91969261213848E000167F3D /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
+		91969262213848E000167F3D /* BDSSpeechSynthesizerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerParams.h; sourceTree = "<group>"; };
+		91969263213848E000167F3D /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
+		91969264213848E000167F3D /* BDSTTSEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSTTSEventManager.h; sourceTree = "<group>"; };
+		91969265213848E000167F3D /* BDSSpeechSynthesizerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSSpeechSynthesizerErrors.h; sourceTree = "<group>"; };
+		919692682138491E00167F3D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9196926A2138492900167F3D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9196926C2138493200167F3D /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		9196926E2138493900167F3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		919692702138494500167F3D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		91969272213849BA00167F3D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		919692BA21384DC300167F3D /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		919692BC21384E2D00167F3D /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		919692BE21384E3B00167F3D /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919692362138481800167F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919692BF21384E3B00167F3D /* libz.1.dylib in Frameworks */,
+				919692BD21384E2D00167F3D /* libc++.1.dylib in Frameworks */,
+				919692BB21384DC300167F3D /* libstdc++.6.0.9.dylib in Frameworks */,
+				919692712138494500167F3D /* AudioToolbox.framework in Frameworks */,
+				9196926F2138493900167F3D /* UIKit.framework in Frameworks */,
+				91969266213848E000167F3D /* libBaiduSpeechSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919692302138481700167F3D = {
+			isa = PBXGroup;
+			children = (
+				9196923B2138481800167F3D /* RNbaiduTTS */,
+				9196923A2138481800167F3D /* Products */,
+				919692672138491E00167F3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9196923A2138481800167F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919692392138481800167F3D /* libRNbaiduTTS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9196923B2138481800167F3D /* RNbaiduTTS */ = {
+			isa = PBXGroup;
+			children = (
+				91969259213848E000167F3D /* lib */,
+				91969256213848E000167F3D /* res */,
+				9196923C2138481800167F3D /* RNbaiduTTS.h */,
+				9196923D2138481800167F3D /* RNbaiduTTS.m */,
+			);
+			path = RNbaiduTTS;
+			sourceTree = "<group>";
+		};
+		91969256213848E000167F3D /* res */ = {
+			isa = PBXGroup;
+			children = (
+				91969257213848E000167F3D /* Chinese_And_English_Text.dat */,
+				91969258213848E000167F3D /* Chinese_And_English_Speech_Female.dat */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		91969259213848E000167F3D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9196925A213848E000167F3D /* libBaiduSpeechSDK.a */,
+				9196925B213848E000167F3D /* TTS */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9196925B213848E000167F3D /* TTS */ = {
+			isa = PBXGroup;
+			children = (
+				9196925C213848E000167F3D /* BDSSynthesizerStatusNotifications.h */,
+				9196925D213848E000167F3D /* BDSSpeechSynthesizerDelegate.h */,
+				9196925E213848E000167F3D /* BDS_EttsModelManagerInterface.h */,
+				9196925F213848E000167F3D /* BDSBuiltInPlayer.h */,
+				91969260213848E000167F3D /* BDSMixedModeSynthesizer.h */,
+				91969261213848E000167F3D /* BDSSpeechSynthesizer.h */,
+				91969262213848E000167F3D /* BDSSpeechSynthesizerParams.h */,
+				91969263213848E000167F3D /* BDSSynthesizerLogLevel.h */,
+				91969264213848E000167F3D /* BDSTTSEventManager.h */,
+				91969265213848E000167F3D /* BDSSpeechSynthesizerErrors.h */,
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+		919692672138491E00167F3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919692BE21384E3B00167F3D /* libz.1.dylib */,
+				919692BC21384E2D00167F3D /* libc++.1.dylib */,
+				919692BA21384DC300167F3D /* libstdc++.6.0.9.dylib */,
+				91969272213849BA00167F3D /* libsqlite3.0.tbd */,
+				919692702138494500167F3D /* AudioToolbox.framework */,
+				9196926E2138493900167F3D /* UIKit.framework */,
+				9196926C2138493200167F3D /* libz.1.tbd */,
+				9196926A2138492900167F3D /* libc++.tbd */,
+				919692682138491E00167F3D /* libstdc++.6.0.9.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919692382138481800167F3D /* RNbaiduTTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919692422138481800167F3D /* Build configuration list for PBXNativeTarget "RNbaiduTTS" */;
+			buildPhases = (
+				919692352138481800167F3D /* Sources */,
+				919692362138481800167F3D /* Frameworks */,
+				919692372138481800167F3D /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNbaiduTTS;
+			productName = RNbaiduTTS;
+			productReference = 919692392138481800167F3D /* libRNbaiduTTS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919692312138481700167F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dzyc;
+				TargetAttributes = {
+					919692382138481800167F3D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 919692342138481700167F3D /* Build configuration list for PBXProject "RNbaiduTTS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 919692302138481700167F3D;
+			productRefGroup = 9196923A2138481800167F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919692382138481800167F3D /* RNbaiduTTS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919692352138481800167F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196923E2138481800167F3D /* RNbaiduTTS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		919692402138481800167F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		919692412138481800167F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919692432138481800167F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BP8KJBBGG3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNbaiduTTS/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		919692442138481800167F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BP8KJBBGG3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNbaiduTTS/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919692342138481700167F3D /* Build configuration list for PBXProject "RNbaiduTTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919692402138481800167F3D /* Debug */,
+				919692412138481800167F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919692422138481800167F3D /* Build configuration list for PBXNativeTarget "RNbaiduTTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919692432138481800167F3D /* Debug */,
+				919692442138481800167F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 919692312138481700167F3D /* Project object */;
+}
