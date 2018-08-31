@@ -4,7 +4,9 @@
  */
 import {
     NativeModules,
-    NativeAppEventEmitter
+    NativeAppEventEmitter,
+    NativeEventEmitter,
+    Platform,
 } from 'react-native';
 
 const Synthesizer = NativeModules.RNbaiduTTS;
@@ -18,8 +20,40 @@ let conf = {
     appID: '',
     apiKey: '',
     secretKey: '',
-    volume: 60
+    volume: 120
 };
+
+class ANDRNbaiduTTS extends NativeEventEmitter {
+    constructor() {
+        console.log(NativeModules.RNbaiduTTS);
+        super(NativeModules.RNbaiduTTS);
+    }
+
+    init = NativeModules.RNbaiduTTS.init;
+
+    speak(content) {
+        return NativeModules.RNbaiduTTS.speak(content);
+    }
+    stop () {
+        return NativeModules.RNbaiduTTS.stop();
+    }
+    resume () {
+        return NativeModules.RNbaiduTTS.resume();
+    }
+    pause () {
+        return NativeModules.RNbaiduTTS.pause();
+    }
+
+    addEventListener(handler) {
+        this.addListener(APP_EVENT_NAME, handler);
+    }
+
+    removeEventListener(handler) {
+        this.removeListener(APP_EVENT_NAME, handler);
+    }
+}
+
+const androidTTS = new ANDRNbaiduTTS();
 
 function assertRequiredParams(options) {
 
@@ -55,8 +89,14 @@ export async function configure(options) {
 
     options = conf = Object.assign({}, conf, options);
 
-    return await Synthesizer.init(options);
-
+    // 兼容 android
+    if(Platform.OS == "android") {
+        console.log(options);
+        return androidTTS.init(options['appID'],options['apiKey'],options['secretKey']);
+    } else {
+        return await Synthesizer.init(options);
+    }
+    
 }
 
 /**
@@ -66,11 +106,34 @@ export async function configure(options) {
  * @param {?Function} callback 事件回调
  * @return {Promise}
  */
-export function speekSentence(sentence, callback) {
+export async function speekSentence(sentence, callback) {
 
     assertRequiredParams(conf);
 
     callback = typeof callback === 'function' ? callback : noop;
+
+    // console.log(sentence);
+    if(Platform.OS == "android"){
+        console.log("android",sentence);
+        androidTTS.speak(sentence);
+        return new Promise(function (resolve, reject) {
+            subscription = androidTTS.addListener(APP_EVENT_NAME,function(event){
+                const {
+                    name,
+                    speekSentenceID
+                } = event;
+                // console.log(event);
+                if (name === 'error') {
+                    subscription.remove();
+                    reject(event);
+                } else if (name === 'speech-end') {
+                    subscription.remove();
+                    resolve(event);
+                }
+                callback(event,subscription);
+            })
+        });
+    }
 
     return Synthesizer.speekSentence(sentence).then(function (sentenceID) {
 
@@ -103,7 +166,7 @@ export function speekSentence(sentence, callback) {
                         resolve(event);
                     }
 
-                    callback(event);
+                    callback(event,subscription);
 
                 }
             );
@@ -121,8 +184,12 @@ export function speekSentence(sentence, callback) {
 // }
 
 export async function cancel() {
+    if(Platform.OS=='android') {
+        return androidTTS.stop();
+        // return androidTTS.removeEventListener(APP_EVENT_NAME);
+    }
     return await Synthesizer.cancel();
-}
+} 
 
 export async function getStatus() {
     return await Synthesizer.getStatus();

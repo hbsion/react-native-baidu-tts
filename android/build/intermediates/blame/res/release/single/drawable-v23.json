@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/drawable-v23/abc_control_background_material.xml"
+    }
+]

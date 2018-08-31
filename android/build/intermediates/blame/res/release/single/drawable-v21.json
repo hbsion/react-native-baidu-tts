@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/hbsion/.android/build-cache/79aa8299874775f10754baa0d242e3f7ce140183/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

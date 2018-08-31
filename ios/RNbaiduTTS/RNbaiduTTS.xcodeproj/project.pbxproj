@@ -12,9 +12,9 @@
 		91969266213848E000167F3D /* libBaiduSpeechSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196925A213848E000167F3D /* libBaiduSpeechSDK.a */; };
 		9196926F2138493900167F3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196926E2138493900167F3D /* UIKit.framework */; };
 		919692712138494500167F3D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919692702138494500167F3D /* AudioToolbox.framework */; };
-		919692BB21384DC300167F3D /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 919692BA21384DC300167F3D /* libstdc++.6.0.9.dylib */; };
-		919692BD21384E2D00167F3D /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 919692BC21384E2D00167F3D /* libc++.1.dylib */; };
-		919692BF21384E3B00167F3D /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 919692BE21384E3B00167F3D /* libz.1.dylib */; };
+		91EC41A12139188400050F21 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EC419F2139186500050F21 /* libz.1.dylib */; };
+		91EC41A3213918CC00050F21 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EC41A2213918CB00050F21 /* libstdc++.6.0.9.dylib */; };
+		91EC41A5213918E500050F21 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EC41A4213918E500050F21 /* libc++.1.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +57,9 @@
 		919692BA21384DC300167F3D /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
 		919692BC21384E2D00167F3D /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
 		919692BE21384E3B00167F3D /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		91EC419F2139186500050F21 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		91EC41A2213918CB00050F21 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		91EC41A4213918E500050F21 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919692BF21384E3B00167F3D /* libz.1.dylib in Frameworks */,
-				919692BD21384E2D00167F3D /* libc++.1.dylib in Frameworks */,
-				919692BB21384DC300167F3D /* libstdc++.6.0.9.dylib in Frameworks */,
+				91EC41A5213918E500050F21 /* libc++.1.dylib in Frameworks */,
+				91EC41A3213918CC00050F21 /* libstdc++.6.0.9.dylib in Frameworks */,
+				91EC41A12139188400050F21 /* libz.1.dylib in Frameworks */,
 				919692712138494500167F3D /* AudioToolbox.framework in Frameworks */,
 				9196926F2138493900167F3D /* UIKit.framework in Frameworks */,
 				91969266213848E000167F3D /* libBaiduSpeechSDK.a in Frameworks */,
@@ -142,7 +145,10 @@
 		919692672138491E00167F3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91EC41A4213918E500050F21 /* libc++.1.dylib */,
+				91EC41A2213918CB00050F21 /* libstdc++.6.0.9.dylib */,
 				919692BE21384E3B00167F3D /* libz.1.dylib */,
+				91EC419F2139186500050F21 /* libz.1.dylib */,
 				919692BC21384E2D00167F3D /* libc++.1.dylib */,
 				919692BA21384DC300167F3D /* libstdc++.6.0.9.dylib */,
 				91969272213849BA00167F3D /* libsqlite3.0.tbd */,

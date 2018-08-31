@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_tint_spinner.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_tint_default.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
+        "source": "/Users/hbsion/.android/build-cache/4bac22f0e7a0c0f2ed2e981247a58c06a5e0ac3b/output/res/color/abc_tint_switch_track.xml"
+    }
+]

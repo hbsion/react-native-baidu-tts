@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/res/merged/release/xml/preferences.xml",
+        "source": "/Users/symous/Desktop/RNTTS/RNTTS/android/react-native-cn-tts/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/hbsion/Work/RN_driver/node_modules/react-native-baidu-tts/android/build/intermediates/res/merged/release/xml/preferences.xml",
+        "source": "/Users/hbsion/.android/build-cache/ac70feaff0544c8e10cafca1012852ef073b662d/output/res/xml/preferences.xml"
+    }
+]
